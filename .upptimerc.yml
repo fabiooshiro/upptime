@@ -3,14 +3,13 @@ owner: pinbank-ip # Your GitHub organization or username, where this repository 
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
   - name: Pinbank.com.br
     url: https://pinbank.com.br
+  - name: Pix API
+    url: pinbank.com.br/services/api/Pix/SolicitarEcommerceQrCode
+    method: POST
+    expectedStatusCodes:
+      - 403
   - name: Acesso a conta
     url: https://acessoaconta.com.br/Login/
 
