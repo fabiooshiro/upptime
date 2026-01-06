@@ -3,8 +3,8 @@ owner: calindra # Your GitHub organization or username, where this repository li
 repo: pinbank_upptime # The name of this repository
 
 sites:
-  # - name: Test Broken Site
-  #   url: https://thissitedoesnotexist.koj.co
+  - name: Test Broken Site
+    url: https://thissitedoesnotexist.koj.co
   - name: Pinbank.com.br
     url: https://pinbank.com.br
   - name: Pix API
